@@ -1,6 +1,6 @@
 # 🎤 Voice Input Assistant - Android
 
-A modern, AI-powered voice input replacement for Android that works system-wide across all apps. Transform your voice into text using AI models with a beautiful, intuitive interface.
+A modern, AI-powered voice input replacement for Android that works system-wide across all apps. Transform your voice into text using powerful AI models with a beautiful, intuitive interface.
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -8,8 +8,8 @@ A modern, AI-powered voice input replacement for Android that works system-wide 
 ## ✨ Features
 
 ### 🎯 **System-Wide Voice Input**
-- Replace your Android keyboard with AI-powered voice input
-- Works in **any app** that accepts text input (WhatsApp, Gmail, Notes, etc.)
+- Replace your typing on keyboard with AI-powered voice input, increase productivity and typing speed!
+- Works in **any app** that accepts text input (WhatsApp, Gmail, Notes, etc.) with keyboard.
 - Custom Input Method Service (IME) integration
 - Accessibility Service for advanced system integration
 
@@ -32,8 +32,9 @@ A modern, AI-powered voice input replacement for Android that works system-wide 
 - **Theme support**: Multiple UI themes
 
 ## 📱 Screenshots
-
+Main screen:
 ![Voice Input Assistant Screenshot 1](images/rm1.jpg)
+Voice input overlay:
 ![Voice Input Assistant Screenshot 2](images/rm2.jpg)
 
 ## 🚀 Quick Start
@@ -111,11 +112,6 @@ A modern, AI-powered voice input replacement for Android that works system-wide 
 - Smooth transitions and organic movement
 - Tap-to-stop functionality
 
-### Overlay Design
-- Rounded corners (16dp radius)
-- Semi-transparent background
-- Centered layout with proper spacing
-- Material Design floating action buttons
 
 ## 🔧 Development
 
