@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Voice Input Assistant</string>
+    <string name="accessibility_service_description">Voice Input Assistant can help you input text using voice commands system-wide.</string>
+    
+    <!-- Model names -->
+    <string-array name="ai_models">
+        <item>OpenAI Whisper (OpenAI)</item>
+        <item>Google Gemini Speech (Google)</item>
+        <item>Azure Speech Services (Microsoft)</item>
+        <item>AWS Transcribe (Amazon)</item>
+    </string-array>
+    
+    <!-- Languages -->
+    <string-array name="languages">
+        <item>Auto-detect</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese (Mandarin)</item>
+        <item>Arabic</item>
+        <item>Hindi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_ring_middle.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_ring_middle.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_container_dark_blue.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_container_dark_blue.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_overlay_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_overlay_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_close.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_container_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_container_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_text_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/text_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/layout_activity_voice_recognition.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_voice_recognition.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_circular_button_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/circular_button_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/layout_activity_main.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_button_pressed.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_button_pressed.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_ring_outer.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_ring_outer.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_keyboard.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_circle_small.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_circle_small.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/layout_activity_voice_recognition_modern.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_voice_recognition_modern.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_ring_minimal.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_ring_minimal.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_button_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_button_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_ring_outer_modern.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_ring_outer_modern.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_spinner_background.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_container_dark_gray.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_container_dark_gray.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_stop.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/xml_backup_rules.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/raw_microphone_animation.json.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/raw/microphone_animation.json"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_microphone_modern.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_microphone_modern.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_container_amoled_black.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_container_amoled_black.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_rounded_button_selector.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/rounded_button_selector.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_microphone.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_microphone.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable-nodpi_ic_launcher_foreground.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable-nodpi/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_ring.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_ring.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_circle_white.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_circle_white.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/layout_floating_voice_button.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/floating_voice_button.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_pulse_circle_black.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/pulse_circle_black.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/layout_activity_settings.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/drawable_ic_settings.xml.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-merged_res-44:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.voiceinput.assistant.app-main-46:/mipmap-mdpi/ic_launcher.png"
+    }
+]

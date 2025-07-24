@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.voiceinput.assistant.app-mergeDebugResources-42:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/amirmusa/.gradle/caches/8.10.2/transforms/45a420f10f73719051ab5f844c2359a1/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

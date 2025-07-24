@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_microphone_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_microphone"
+        app:backgroundTint="@color/surface_primary"
+        app:tint="@color/accent_primary"
+        app:fabSize="normal"
+        app:elevation="4dp"
+        app:borderWidth="1dp"
+        app:strokeColor="@color/accent_secondary"
+        app:strokeWidth="1dp" />
+
+</FrameLayout>

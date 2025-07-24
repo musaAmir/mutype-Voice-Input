@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Material colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    
+    <!-- Blue theme colors -->
+    <color name="blue_200">#BFDBFE</color>
+    <color name="blue_300">#93C5FD</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="blue_500">#2196F3</color>
+    <color name="blue_600">#1976D2</color>
+    <color name="blue_700">#1565C0</color>
+    
+    <!-- Green colors -->
+    <color name="green_500">#10B981</color>
+    <color name="green_600">#059669</color>
+    
+    <!-- Red colors -->
+    <color name="red_500">#EF4444</color>
+    <color name="red_600">#DC2626</color>
+    
+    <!-- Orange colors -->
+    <color name="orange_500">#F97316</color>
+    
+    <!-- Gray scale -->
+    <color name="gray_50">#F9FAFB</color>
+    <color name="gray_100">#F3F4F6</color>
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_700">#374151</color>
+    <color name="gray_800">#1F2937</color>
+    <color name="gray_900">#111827</color>
+    
+    <!-- Theme-specific colors -->
+    
+    <!-- Dark Blue Theme -->
+    <color name="theme_blue_background">#1A1A2E</color>
+    <color name="theme_blue_surface">#16213E</color>
+    <color name="theme_blue_card">#0F172A</color>
+    <color name="theme_blue_primary">#3B82F6</color>
+    <color name="theme_blue_accent">#60A5FA</color>
+    
+    <!-- AMOLED Black Theme - Pure black with white accents -->
+    <color name="theme_amoled_background">#000000</color>
+    <color name="theme_amoled_surface">#000000</color>
+    <color name="theme_amoled_card">#000000</color>
+    <color name="theme_amoled_primary">#FFFFFF</color>
+    <color name="theme_amoled_accent">#FFFFFF</color>
+    
+    <!-- Dark Gray Theme - Very dark grey with proper contrast -->
+    <color name="theme_gray_background">#0A0A0A</color>
+    <color name="theme_gray_surface">#111111</color>
+    <color name="theme_gray_card">#1A1A1A</color>
+    <color name="theme_gray_primary">#FFFFFF</color>
+    <color name="theme_gray_accent">#FFFFFF</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="background">#1A1A2E</color>
+    <color name="surface">#16213E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#A1A1AA</color>
+    <color name="accent">#3B82F6</color>
+    <color name="background_primary">@color/gray_900</color>
+    <color name="background_secondary">@color/gray_800</color>
+</resources> 

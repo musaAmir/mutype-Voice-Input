@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.voiceinput.assistant.app-mergeDebugResources-43:/layout/activity_voice_recognition.xml",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_voice_recognition.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-mergeDebugResources-43:/layout/activity_voice_recognition_modern.xml",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_voice_recognition_modern.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-mergeDebugResources-43:/layout/floating_voice_button.xml",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/floating_voice_button.xml"
+    },
+    {
+        "merged": "com.voiceinput.assistant.app-mergeDebugResources-43:/layout/activity_settings.xml",
+        "source": "com.voiceinput.assistant.app-main-46:/layout/activity_settings.xml"
+    }
+]

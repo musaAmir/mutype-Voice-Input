@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AMOLED Night Theme Colors - Optimized for power efficiency -->
+    
+    <!-- Base colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+    <!-- Red colors -->
+    <color name="red_500">#EF4444</color>
+    
+    <!-- AMOLED optimized grayscale - True blacks and high contrast -->
+    <color name="gray_200">#E5E7EB</color>
+    <color name="gray_300">#D1D5DB</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_600">#222222</color>
+    <color name="gray_700">#111111</color>
+    <color name="gray_800">#050505</color>
+    <color name="gray_900">#000000</color>
+
+    <!-- AMOLED optimized theme colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#DDDDDD</color>
+    <color name="text_tertiary">#AAAAAA</color>
+    
+    <!-- Surface colors for AMOLED - True blacks for maximum power savings -->
+    <color name="surface_primary">#000000</color>
+    <color name="surface_secondary">#000000</color>
+    <color name="surface_elevated">#111111</color>
+    
+    <!-- Accent colors for minimal design - High contrast for readability -->
+    <color name="accent_primary">#FFFFFF</color>
+    <color name="accent_secondary">#DDDDDD</color>
+    <color name="accent_subtle">#555555</color>
+</resources>

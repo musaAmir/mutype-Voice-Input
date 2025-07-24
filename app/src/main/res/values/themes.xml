@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- AMOLED Black Theme - True black for maximum power efficiency -->
+    <style name="Theme.VoiceInputAssistant" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary colors - Pure black theme -->
+        <item name="colorPrimary">@color/surface_primary</item>
+        <item name="colorOnPrimary">@color/accent_primary</item>
+        
+        <!-- Secondary colors - Minimal contrast -->
+        <item name="colorSecondary">@color/surface_secondary</item>
+        <item name="colorOnSecondary">@color/accent_primary</item>
+        
+        <!-- Accent and control colors - Clean white accents -->
+        <item name="colorAccent">@color/accent_primary</item>
+        <item name="colorControlActivated">@color/accent_primary</item>
+        <item name="colorControlHighlight">@color/accent_subtle</item>
+        <item name="colorControlNormal">@color/accent_secondary</item>
+        
+        <!-- Background and surface colors - True AMOLED black -->
+        <item name="android:statusBarColor">@color/surface_primary</item>
+        <item name="android:windowBackground">@color/surface_primary</item>
+        <item name="android:colorBackground">@color/surface_primary</item>
+        <item name="colorSurface">@color/surface_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        
+        <!-- Text colors - High contrast for readability -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/text_primary</item>
+        
+        <!-- Force dark theme -->
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+    
+    <!-- Settings activity theme - AMOLED Black -->
+    <style name="Theme.VoiceInputAssistant.Settings" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary colors - Pure black theme -->
+        <item name="colorPrimary">@color/surface_primary</item>
+        <item name="colorOnPrimary">@color/accent_primary</item>
+        
+        <!-- Secondary colors - Minimal contrast -->
+        <item name="colorSecondary">@color/surface_secondary</item>
+        <item name="colorOnSecondary">@color/accent_primary</item>
+        
+        <!-- Accent and control colors - Clean white accents -->
+        <item name="colorAccent">@color/accent_primary</item>
+        <item name="colorControlActivated">@color/accent_primary</item>
+        <item name="colorControlHighlight">@color/accent_subtle</item>
+        <item name="colorControlNormal">@color/accent_secondary</item>
+        
+        <!-- Background and surface colors - True AMOLED black -->
+        <item name="android:statusBarColor">@color/surface_primary</item>
+        <item name="android:windowBackground">@color/surface_primary</item>
+        <item name="android:colorBackground">@color/surface_primary</item>
+        <item name="colorSurface">@color/surface_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        
+        <!-- Text colors - High contrast for readability -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/text_primary</item>
+        
+        <!-- Action bar colors -->
+        <item name="actionBarStyle">@style/ActionBar.Dark</item>
+        
+        <!-- Force dark theme -->
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+    </style>
+
+    <!-- Custom Action Bar Style - AMOLED Black -->
+    <style name="ActionBar.Dark" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/surface_primary</item>
+        <item name="titleTextStyle">@style/ActionBarTitle.Dark</item>
+    </style>
+    
+    <!-- Action Bar Title Style -->
+    <style name="ActionBarTitle.Dark" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Overlay theme for voice recognition -->
+    <style name="Theme.VoiceInputAssistant.Overlay" parent="Theme.VoiceInputAssistant">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>    

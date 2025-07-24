@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.voiceinput.assistant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Required Permissions -->
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:7:5-67
+13-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+14-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:8:5-78
+14-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:8:22-75
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.voiceinput.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.voiceinput.assistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:10:5-73:19
+23        android:name="com.voiceinput.assistant.VoiceInputApplication"
+23-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:11:9-46
+24        android:allowBackup="true"
+24-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/56d2af813562ae32478c2df061af360c/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:13:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:14:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:18:9-35
+34        android:theme="@style/Theme.VoiceInputAssistant" >
+34-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:19:9-57
+35
+36        <!-- Main Activity -->
+37        <activity
+37-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:23:9-31:20
+38            android:name="com.voiceinput.assistant.ui.MainActivity"
+38-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:24:13-44
+39            android:exported="true"
+39-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:25:13-36
+40            android:theme="@style/Theme.VoiceInputAssistant" >
+40-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:26:13-61
+41            <intent-filter>
+41-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:27:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:28:17-69
+42-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:29:17-77
+44-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <!-- Settings Activity -->
+49        <activity
+49-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:34:9-38:61
+50            android:name="com.voiceinput.assistant.ui.SettingsActivity"
+50-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:35:13-48
+51            android:exported="false"
+51-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:36:13-37
+52            android:parentActivityName="com.voiceinput.assistant.ui.MainActivity"
+52-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:38:13-58
+53            android:theme="@style/Theme.VoiceInputAssistant.Settings" />
+53-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:37:13-70
+54
+55        <!-- Voice Recognition Activity (Overlay) -->
+56        <activity
+56-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:41:9-52:20
+57            android:name="com.voiceinput.assistant.ui.VoiceRecognitionActivity"
+57-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:42:13-56
+58            android:excludeFromRecents="true"
+58-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:45:13-46
+59            android:exported="true"
+59-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:43:13-36
+60            android:launchMode="singleTop"
+60-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:47:13-43
+61            android:taskAffinity=""
+61-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:46:13-36
+62            android:theme="@style/Theme.VoiceInputAssistant.Overlay" >
+62-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:44:13-69
+63            <intent-filter>
+63-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:48:13-51:29
+64                <action android:name="android.speech.action.RECOGNIZE_SPEECH" />
+64-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:49:17-81
+64-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:49:25-78
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:50:17-76
+66-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:50:27-73
+67            </intent-filter>
+68        </activity>
+69
+70        <!-- Modern Voice Recognition Activity -->
+71        <activity
+71-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:55:9-66:20
+72            android:name="com.voiceinput.assistant.ui.VoiceRecognitionActivityModern"
+72-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:56:13-62
+73            android:excludeFromRecents="true"
+73-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:59:13-46
+74            android:exported="true"
+74-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:57:13-36
+75            android:launchMode="singleTop"
+75-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:61:13-43
+76            android:taskAffinity=""
+76-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:60:13-36
+77            android:theme="@style/Theme.VoiceInputAssistant.Overlay" >
+77-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:58:13-69
+78            <intent-filter>
+78-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:48:13-51:29
+79                <action android:name="android.speech.action.RECOGNIZE_SPEECH" />
+79-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:49:17-81
+79-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:49:25-78
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:50:17-76
+81-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:50:27-73
+82            </intent-filter>
+83        </activity>
+84
+85        <!-- Floating Voice Button Service -->
+86        <service
+86-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:69:9-71:40
+87            android:name="com.voiceinput.assistant.services.FloatingVoiceService"
+87-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:70:13-58
+88            android:exported="false" />
+88-->/Users/amirmusa/Projects/opensource/android-voice/app/src/main/AndroidManifest.xml:71:13-37
+89
+90        <activity
+90-->[com.karumi:dexter:6.2.3] /Users/amirmusa/.gradle/caches/8.10.2/transforms/ce693004dfdcba3b3545301a08ef4333/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+91            android:name="com.karumi.dexter.DexterActivity"
+91-->[com.karumi:dexter:6.2.3] /Users/amirmusa/.gradle/caches/8.10.2/transforms/ce693004dfdcba3b3545301a08ef4333/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:28:13-60
+92            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+92-->[com.karumi:dexter:6.2.3] /Users/amirmusa/.gradle/caches/8.10.2/transforms/ce693004dfdcba3b3545301a08ef4333/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:29:13-69
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+96            android:authorities="com.voiceinput.assistant.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/9aa0e4d1e31ba40348f37eea2fccdadb/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/b3e953da8ee96e9c9b70a93eaf403e6d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/b3e953da8ee96e9c9b70a93eaf403e6d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/b3e953da8ee96e9c9b70a93eaf403e6d/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <uses-library
+109-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+110            android:name="androidx.window.extensions"
+110-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+111            android:required="false" />
+111-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+112        <uses-library
+112-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+113            android:name="androidx.window.sidecar"
+113-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+114            android:required="false" />
+114-->[androidx.window:window:1.0.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/1d9aeb8930ace97a16855bcd0958a388/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/amirmusa/.gradle/caches/8.10.2/transforms/619c364a8620d706d3618b7c49e7e28b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135    </application>
+136
+137</manifest>
